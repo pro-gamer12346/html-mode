@@ -1,0 +1,22 @@
+<html><head>
+        <title> DOM </title>
+        <STYLE>
+            .alert {color: antiquewhite;
+            background-color: aqua;}
+        </STYLE>
+</head> <body>
+    <header>
+        <h1 class="heading"> welcome</h1>
+        <p>hello</p>
+    </header>
+    <p>how are you?</p>
+    <script>
+        let div = document.createElement ("div");
+        div.id = "pragraph"
+        div.className = "alert";
+        div.innerHTML = "<p> congrazonlylations </p>";
+        document.body.append (div);
+        let heading = document.getElementById ("heading");
+        document.querySelector ("header P").innerHTML = "great jeb"
+         </script>
+</body></html>
