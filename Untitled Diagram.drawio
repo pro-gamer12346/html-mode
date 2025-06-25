@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Page-1" id="57w16Qo24UC7rcMhCUXd">
+    <mxGraphModel dx="2205" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L6JEV1TqxObyyF_cxud0-1" value="START" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L6JEV1TqxObyyF_cxud0-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L6JEV1TqxObyyF_cxud0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="350" as="sourcePoint" />
+            <mxPoint x="425" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6JEV1TqxObyyF_cxud0-5" value="&lt;b&gt;IMPUT NUMBER&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.75;" vertex="1" parent="1">
+          <mxGeometry x="365" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L6JEV1TqxObyyF_cxud0-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L6JEV1TqxObyyF_cxud0-5" target="L6JEV1TqxObyyF_cxud0-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="350" as="sourcePoint" />
+            <mxPoint x="540" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6JEV1TqxObyyF_cxud0-7" value="IF NUM 2==0" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L6JEV1TqxObyyF_cxud0-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;" edge="1" parent="1" source="L6JEV1TqxObyyF_cxud0-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="350" as="sourcePoint" />
+            <mxPoint x="519.8086124401916" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6JEV1TqxObyyF_cxud0-11" value="YES ITS  AN EVEN NOPE" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="540" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="L6JEV1TqxObyyF_cxud0-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1" source="L6JEV1TqxObyyF_cxud0-7" target="L6JEV1TqxObyyF_cxud0-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="350" as="sourcePoint" />
+            <mxPoint x="170" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="60" />
+              <mxPoint x="260" y="240" />
+              <mxPoint x="220" y="190" />
+              <mxPoint x="210" y="290" />
+              <mxPoint x="160" y="400" />
+              <mxPoint x="190" y="570" />
+              <mxPoint x="270" y="450" />
+              <mxPoint x="250" y="360" />
+              <mxPoint x="250" y="280" />
+              <mxPoint x="290" y="280" />
+              <mxPoint x="340" y="260" />
+              <mxPoint x="350" y="210" />
+              <mxPoint x="400" y="210" />
+              <mxPoint x="370" y="320" />
+              <mxPoint x="330" y="340" />
+              <mxPoint x="310" y="430" />
+              <mxPoint x="330" y="540" />
+              <mxPoint x="280" y="680" />
+              <mxPoint x="70" y="640" />
+              <mxPoint x="90" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6JEV1TqxObyyF_cxud0-14" value="ITS AN ODD NO" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
