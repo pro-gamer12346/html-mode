@@ -1,5 +1,14 @@
-num = 17
-print("Table of 17")
-for i in range(1,11):
-    mul = num*i 
-    print("17 x %d = %d" % (i, mul))
+class Parrot:
+    species = "bird"
+    def __init__(self,name,age):
+        self.name =name
+        self.age = age
+    
+blu = Parrot("blu",  10)
+woo = Parrot("woo", 15)
+
+print("Blu is a {}".format(blu.species))
+print("woo is also a {}".format(woo.species))
+
+print("{} is {}years old".format(blu.name, blu.age))
+print("{} is {}years old".format(woo.name, woo.age))
