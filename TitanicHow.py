@@ -1,0 +1,36 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+data = pd.read_csv('titanic.csv')
+data.head(5)
+
+minimum_age = data['Age'].min()
+print('Minimum Age =', minimum_age)
+maximum_age = data['Age'].max()
+print('Maximum Age =', maximum_age)
+
+bins = [0, 15, 30, 45, 60, 75]
+
+data['binned_age'] = pd.cut(data['Age'], bins)
+print(data[['binned_age', 'Age']].head())
+
+age_labels = ['Young', 'Young - adult', 'Middle Aged','Middle-Older Age', 'Senior']
+data['binned_age'] = pd.cut(data['Age'], bins, labels=age_labels)
+
+data['binned_age'].value_counts().sort_index().plot.bar()
+
+plt.title('Dance Class Age Distribution')
+plt.xlabel('Age')
+plt.ylabel('Count')
+
+labels = ['Survived', 'Pclass','Age', 'SibSp', 'Parch', 'Fare']
+for label in labels:
+    print('distribution of', label)
+    sns.displot(data[label])
+    plt.show()
+    print('Skewness =', data[label].skew())
+data['log_SibSp'] = np.log(data['SibSp'])
+data['log_Parch'] = np.log(data['Parch'])
+data['log_Fare'] = np.log(data['Fare'])
